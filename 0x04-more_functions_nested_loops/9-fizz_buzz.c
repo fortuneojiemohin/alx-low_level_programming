@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 #include "main.h"
+
 /**
 * main - entry point
 *
@@ -9,6 +11,7 @@
 *
 * Return: always 0
 */
+
 int main(void)
 {
 int i;
@@ -19,7 +22,7 @@ printf("FizzBuzz");
 else if (i % 3 == 0)
 printf("Fizz");
 else if (i % 5 == 0)
-pintf("Buzz");
+printf("Buzz");
 else
 printf("%i", i);
 if (i < 100)
