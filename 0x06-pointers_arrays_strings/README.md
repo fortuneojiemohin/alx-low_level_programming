@@ -1,0 +1,1 @@
+mor pointed array string
