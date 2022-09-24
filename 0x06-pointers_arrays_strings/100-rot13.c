@@ -1,5 +1,4 @@
 #include "main.h"
-
 #include <stdio.h>
 
 /**
@@ -8,7 +7,6 @@
 *
 * Return: A pointer to the encoded string.
 */
-
 char *rot13(char *s)
 {
 int count = 0, i;
