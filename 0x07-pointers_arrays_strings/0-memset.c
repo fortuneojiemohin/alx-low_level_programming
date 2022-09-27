@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 * Description: _memset - Fills the first n bytes of the memory area
 *          pointed to by @s with the constant byte @c.
@@ -9,7 +8,6 @@
 *
 * Return: A pointer to the filled memory area @s.
 */
-
 void *_memset(void *s, int c, size_t n)
 {
 unsigned int index;
