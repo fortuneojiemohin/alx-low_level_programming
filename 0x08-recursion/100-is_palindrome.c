@@ -1,9 +1,7 @@
 #include "main.h"
 
 int find_strlen(char *s);
-
 int check_palindrome(char *s, int len, int index);
-
 int is_palindrome(char *s);
 
 /**
@@ -52,7 +50,6 @@ return (0);
 */
 
 int is_palindrome(char *s)
-  
 {
 int index = 0;
 int len = find_strlen(s);
