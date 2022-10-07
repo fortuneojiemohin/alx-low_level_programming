@@ -31,6 +31,7 @@ if (new_size == 0 && ptr != NULL)
 {
 free(ptr);
 return (NULL);
+}
 ptr_copy = ptr;
 mem = malloc(sizeof(*ptr_copy) * new_size);
 if (mem == NULL)
