@@ -59,7 +59,7 @@ for (; head != NULL; nodes++)
 {
 printf("[%p] %d\n", (void *)head, head->n);
 head = head->next;
-}      
+}   
 }
 else
 {
